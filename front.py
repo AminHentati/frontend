@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-# Set the FastAPI backend URL
-BACKEND_URL = "http://localhost:8000"
+# Set the FastAPI backend URL (use Render URL here)
+BACKEND_URL = "https://backend-qybk.onrender.com"  # Replace with your actual backend URL
 
 # Streamlit app title
 st.title("Gold Price Prediction")
